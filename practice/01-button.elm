@@ -4,8 +4,9 @@ import Html.Events exposing (onClick)
 main =
     Html.beginnerProgram { model = model , view = view , update = update }
 
--- MODEL
-
+{-- MODEL
+Here we make a new type that we can use in the app it is an alias for the Int type.
+--}
 type alias Model = Int
 
 model : Model
@@ -13,7 +14,9 @@ model =
         0
 
 
---UPDATE
+{--UPDATE
+Here we define the messages that will be received from the UI in VIEW
+--}
 
 type Msg = Increment | Decrement
 
