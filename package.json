@@ -1,0 +1,11 @@
+{
+  "name": "elm-architecture-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DannMcC/elm-architecture-tutorial.git",
+  "author": "Dan McCune <dmccune@hivelocity.net>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "0.9.5"
+  }
+}
