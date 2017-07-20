@@ -22,7 +22,6 @@ type Msg =
 {- View
 -}
 
-
 view : Model -> Html Msg
 view model =
     div []
